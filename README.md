@@ -1,13 +1,16 @@
-# 云开发 quickstart
+# 在西信
 
-这是云开发的快速启动指引，其中演示了如何上手使用云开发的三大基础能力：
+1、获取公告的API：
+https://gwrblog.top:8443/Sdy/getNotice
 
-- 数据库：一个既可在小程序前端操作，也能在云函数中读写的 JSON 文档型数据库
-- 文件存储：在小程序前端直接上传/下载云端文件，在云开发控制台可视化管理
-- 云函数：在云端运行的代码，微信私有协议天然鉴权，开发者只需编写业务逻辑代码
+2、获取成绩的API：
+https://gwrblog.top:8443/Sdy/gss?name=学生姓名&sfz=身份证号
 
-## 参考文档
+3、获取毕业设计题目的API：
+https://gwrblog.top:8443/Sdy/getGraduationProjectQuestion?pageStartNum=起始值&pageEndNum=终止值
 
-- [云开发文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
+4、获取体育部公众号近期10条文章的API：
+https://gwrblog.top:8443/Sdy/getArticle
 
-# ZaiXiXin
+5、获取学校新闻的API：
+https://gwrblog.top:8443/Sdy/getData
